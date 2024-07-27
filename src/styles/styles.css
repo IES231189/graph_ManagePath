@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: none;
+}
+
+.container-nav-main {
+    margin: 0%; 
+    width: 100%;
+    background-color: #FDF2E9 ;
+    box-shadow: 1px 1px 2px 1px #9e9d9dec;
+}
+
+.container-nav-main ul {
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+
+}
+
+.container-nav-main li {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #c92424;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+li a:hover {
+    color: #fff;
+    background-color: brown;
+    padding: 20px;
+}
+
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.register-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c92424;
+}
+
+.placeForm{
+    padding-top: 10px;
+    width: 600px;
+}
+
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #753737;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+label{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
